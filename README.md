@@ -6,3 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - [appru](https://colorlib.com/wp/template/appru/)
 - [appru - preview](https://preview.colorlib.com/#appru)
+
+## Deploy
+
+```
+ng deploy --base-href=/WINCLUB86/
+```
