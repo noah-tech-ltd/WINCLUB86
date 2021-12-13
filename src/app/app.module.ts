@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { IosInstallTutorialComponent } from './ios-install-tutorial/ios-install-tutorial.component';
 import { AndroidInstallTutorialComponent } from './android-install-tutorial/android-install-tutorial.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { AndroidInstallTutorialComponent } from './android-install-tutorial/andr
     AndroidInstallTutorialComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
